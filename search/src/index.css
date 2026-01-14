@@ -75,6 +75,11 @@ th{
     padding: 5px;
 }
 
+tfoot{
+    padding: 5px;
+    background-color: #dfdfdf;
+}
+
 form{
     display: flex;
     gap: 1rem;

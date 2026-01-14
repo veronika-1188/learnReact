@@ -116,9 +116,7 @@ export default function App(){
                     ))}
                 </tbody>
                 <tfoot>
-                    <tr>
-                        <th></th>
-                    </tr>
+                        {filtered.length} из {PRODUCTS.length}
                 </tfoot>
             </table>
         </div>
