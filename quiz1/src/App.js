@@ -34,7 +34,15 @@ function Test() {
     return(
         <>
         <div>
-            
+            <div className='progress'>
+                <div className='progress__inner'></div>
+            </div>
+            <h1>Вопрос</h1>
+            <ul>
+                <li>вариант ответа</li>
+                <li>вариант ответа</li>
+                <li>вариант ответа</li>
+            </ul>
         </div>
         </>
     )
@@ -43,7 +51,8 @@ function Test() {
 function App() {
   return (
     <div className="App">
-        
+        <Test/>
+        <Result/>
     </div>
   );
 }
