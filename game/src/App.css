@@ -1,5 +1,5 @@
 .App{
-    min-width: 860px;
+    max-width: 860px;
     margin: 40px auto;
 }
 
@@ -17,4 +17,11 @@
 
 .btn:hover{
     background: #c23866;
+}
+
+.card-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
